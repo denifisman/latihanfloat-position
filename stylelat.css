@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color: #ededed;
+    color: #333333;
+}
+.container{
+    width: 860px;
+    background-color: #ffffff;
+    margin: auto;
+}
+.header{
+    padding: 20px;
+}
+
+.header .title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: salmon;
+
+}
+.header ul li a:hover{
+    font-size: 20px;
+    background-color: lightskyblue;
+    color: #ffffff;
+}
